@@ -1,6 +1,9 @@
 .navbar{
     background-color: rgb(39, 86, 162) !important;
 }
+.navbar-brand{
+    width: 7% !important;
+}
 .nav-link{
     color: white !important;
 }
@@ -10,7 +13,7 @@
 }
 
 #logo{
-    width: 50%;
+    width: 100%;
 }
 .catalog_link{
     padding-left: 2%;
@@ -45,4 +48,9 @@
 #footer-links{
     color: white;
     text-decoration: none;
+    font-size: 14px;
+}
+#footer-links:hover{
+    color: black;
+    transition-delay: 100ms;
 }
