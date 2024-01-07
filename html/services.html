@@ -8,6 +8,38 @@
     <link rel="shortcut icon" href="/pictures/favicon.ico" type="image/x-icon">
     <title>Services</title>
 </head>
+<style>
+    body {
+        background-color: #f8f9fa; /* Set a light background color */
+    }
+
+    #services-navbar {
+        background-color: rgb(39, 86, 162); /* Set the main color for the services navbar */
+        margin-bottom: 20px; /* Add some space between the main navbar and services navbar */
+    }
+
+    .service-container {
+        margin-bottom: 20px; /* Add space between service rows */
+    }
+
+    .service-card {
+        border: 1px solid #ddd; /* Add a border around each service card */
+        padding: 10px; /* Add padding inside each service card */
+        text-align: center;
+    }
+
+    .service-card img {
+        max-width: 300px; /* Set max width for images */
+        max-height: 200px; /* Set max height for images */
+        width: 100%; /* Make sure images fill the container */
+        height: auto;
+        margin-bottom: 10px; /* Add space between image and title */
+    }
+
+    .service-title {
+        color: rgb(39, 86, 162); /* Set the main color for service titles */
+    }
+</style>
 <body> 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/index.html">
@@ -32,29 +64,80 @@
     </nav>
     
     <main>
-        <center>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="services-navbar">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSecondary" aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSecondary">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/html/services/electric.html">Electric Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/html/services/constructions.html">General Constructions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Other</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Other</a>
-                        </li>
-                    </ul>
+    <div class="container" style="margin-top: 40px;">
+        <div class="row service-container">
+            <!-- Service 1 -->
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="/pictures/gen_contract.jpeg" alt="General Contracting">
+                    <h4 class="service-title">General Contracting</h4>
+                    <a href="/html/services/constructions.html" class="btn btn-primary">More on this service</a>
                 </div>
-            </nav>
-    </center>
+            </div>
+            <!-- Service 2 -->
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="/pictures/airports_equip.jpg" alt="Equipping Airports">
+                    <h4 class="service-title">Equipping Airports</h4>
+                    <a href="/pdfs/Présentation ENG.pdf" class="btn btn-primary">View pdf</a>
+                </div>
+            </div>
+    
+            <!-- Service 3 -->
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="/pictures/Electric.jpg" alt="Electricity Engineering">
+                    <h4 class="service-title">Electricity Engineering</h4>
+                    <a href="/html/services/electric.html" class="btn btn-primary">More on this service</a>
+                </div>
+            </div>
+    
+            <!-- Service 4 -->
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="/pictures/aircond.jpg" alt="Central Air-conditioning">
+                    <h4 class="service-title">Central Air-conditioning</h4>
+                    <a href="/html/services/air-conditioning.html" class="btn btn-primary">View pdf</a>
+                </div>
+            </div>
+    
+            <!-- Service 5 -->
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="/pictures/roads.jpg" alt="Roads and Infrastructure">
+                    <h4 class="service-title">Roads and Infrastructure</h4>
+                    <a href="/html/services/roads.html" class="btn btn-primary">View pdf</a>
+                </div>
+            </div>
+    
+            <!-- Service 6 -->
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="/pictures/irrigation.jpg" alt="Large Crops and Irrigation">
+                    <h4 class="service-title">Large Crops and Irrigation</h4>
+                    <a href="/html/services/crops.html" class="btn btn-primary">View pdf</a>
+                </div>
+            </div>
+    
+            <!-- Service 7 -->
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="/pictures/" alt="Research Office">
+                    <h4 class="service-title">Research Office</h4>
+                    <a href="/html/services/research.html" class="btn btn-primary">View pdf</a>
+                </div>
+            </div>
+    
+            <!-- Service 8 -->
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="/pictures/marketing.jpeg" alt="Advertising Brands">
+                    <h4 class="service-title">Advertising Brands</h4>
+                    <a href="/html/services/advertising.html" class="btn btn-primary">View pdf</a>
+                </div>
+            </div>
+        </div>
+    </div>    
     </main>
     <!-- Bootstrap JS and jQuery (required for Bootstrap features) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
