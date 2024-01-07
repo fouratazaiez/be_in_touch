@@ -2,7 +2,7 @@
     background-color: rgb(39, 86, 162) !important;
 }
 .navbar-brand{
-    width: 7% !important;
+    width: 8% !important;
 }
 .nav-link{
     color: white !important;
@@ -53,4 +53,16 @@
 #footer-links:hover{
     color: black;
     transition-delay: 100ms;
+}
+
+h5, h2, h3, h4, h1{
+    color: rgb(39, 86, 162);
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
 }
